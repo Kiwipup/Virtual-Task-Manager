@@ -3,7 +3,7 @@
 
 @section('content')
 
-<div class="col-lg-10 col-md-12 col-sm-12 border border-secondary p-4">
+<div class="col-lg-10 col-md-12 col-sm-12 border border-secondary p-4 justify-content-center">
   <div class="form-group row">
     <label for="example-text-input" class="col-2 col-form-label">First Name</label>
     <div class="col-6">

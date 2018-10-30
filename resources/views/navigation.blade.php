@@ -12,7 +12,7 @@
 
       <ul id="links" class="list-inline list-unstyled">
 
-        <button class="btn btn-warning"><li><a  href="/blog.html">Log In</a></li></button>
+        <button class="btn btn-warning"><li><a  href="#">Log In</a></li></button>
       </ul>
     </div>
   </div>

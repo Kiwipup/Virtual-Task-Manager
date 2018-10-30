@@ -20,7 +20,7 @@
     @include('loggedin-nav')
 
 
-  <div class="justify-content-center container">
+  <div class="justify-content-center container border border-danger">
     @yield('content')
 </div>
 
