@@ -1,0 +1,81 @@
+#nav {
+display: block;
+position: fixed;
+width: 100%;
+z-index: 99999;
+transition: all ease .5s;
+}
+
+#logo {
+color: #fff;
+padding: 20px;
+font-size: 18px;
+display: inline-block;
+transition: all ease .5s;
+}
+#logo a {
+color: #fff !important;
+}
+
+#links {
+position: absolute;
+top: 0;
+right: 0;
+padding: 10px;
+}
+
+
+#nav.shrink {
+height: 60px;
+transition: all ease .5s;
+background: rgba(0,0,0,.7);
+}
+
+/*#nav.shrink #logo {
+padding: 10px;
+transition: all ease .5s;
+}
+#nav.shrink #links {
+padding: 10px;
+transition: all ease .5s;
+}*/
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+/*  .container {
+    max-width: 538px;
+  }*/
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+
+
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+
+ }
+
+ .container {
+
+   padding-top: 200px;
+   display: flex;
+ }
