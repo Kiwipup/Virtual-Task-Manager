@@ -19,7 +19,7 @@
     @include('loggedin-nav')
 
 
-  <div class="justify-content-center container-lg border border-danger">
+  <div class="justify-content-center container border border-danger">
     @yield('content')
 </div>
 

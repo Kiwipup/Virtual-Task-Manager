@@ -2,8 +2,8 @@
 
 
 
-      <div class="p-4 row" id="logo">
-        <div class="col-md-2">
+      <div class="row align-items-end" id="logo">
+        <div class="col-md-2 text-center">
         <a href="#"><i class=" nav-brand far fa-question-circle"></i></a>
         <a href="/primary-views/dashboard"><i class="fas fa-home"></i></a>
       </div>
@@ -17,7 +17,7 @@
     </div>
   </form>
 </div>
-      <div class="col-md-3">
+      <div class="col-md-6 text-right">
         <span id="links">
           <span><a href="/primary-views/accountinfo">Username</a></span>
           <span>|</span>
@@ -28,4 +28,4 @@
       </div>
     </div>
   </div>
-  </div>
+  
