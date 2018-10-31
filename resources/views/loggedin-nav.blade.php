@@ -2,12 +2,12 @@
 
 
 
-      <div class="p-4 d-inline row" id="logo">
-        <div class="col-md-4">
+      <div class="p-4 row" id="logo">
+        <div class="col-md-2">
         <a href="#"><i class=" nav-brand far fa-question-circle"></i></a>
         <a href="/primary-views/dashboard"><i class="fas fa-home"></i></a>
-
-
+      </div>
+  <div class="col-md-3">
   <form class="navbar-form" role="search">
     <div class="input-group add-on">
       <input class="form-control" placeholder="Search User" name="srch-term" id="srch-term" type="text">
@@ -17,12 +17,15 @@
     </div>
   </form>
 </div>
+      <div class="col-md-3">
         <span id="links">
-          <span>Username</span>
+          <span><a href="/primary-views/accountinfo">Username</a></span>
           <span>|</span>
           <span><i class="fas fa-bell"></i></span>
           <span>|</span>
-          <span>Logout</span>
+          <span><a href="/primary-views/homepage">Logout</a></span>
         </span>
+      </div>
     </div>
+  </div>
   </div>

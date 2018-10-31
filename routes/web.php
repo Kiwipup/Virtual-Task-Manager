@@ -44,3 +44,9 @@ Route::get('/primary-views/reports', function () {
   return view('primary-views.reports');
 
 });
+
+Route::get('/primary-views/accountinfo', function () {
+
+  return view('primary-views.accountinfo');
+
+});

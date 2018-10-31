@@ -1,6 +1,8 @@
 @extends('layout')
 
 
+
+
 @section('content')
 
   <div class="col-9 justify-content-center">
