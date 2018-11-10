@@ -50,3 +50,7 @@ Route::get('/primary-views/accountinfo', function () {
   return view('primary-views.accountinfo');
 
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
