@@ -66,7 +66,7 @@ return [
             'driver' => 'pgsql',
             'host' => $dbhost,
             'port' => $dbport,
-            'database' => $dbuser,
+            'database' => $dbname,
             'username' => $dbuser,
             'password' => $dbpass,
             'charset' => 'utf8',
