@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('primary-views/homepage');
+    return view('welcome');
 });
 
 Route::get('/primary-views/homepage', function () {
@@ -21,13 +21,7 @@ Route::get('/primary-views/homepage', function () {
 
 });
 
-Route::get('/primary-views/signup', function () {
-
-  return view('primary-views.signup');
-
-});
-
-Route::get('/primary-views/dashboard', function () {
+Route::get('/primary-views', function () {
 
   return view('primary-views.dashboard');
 
